@@ -1,0 +1,69 @@
+code{
+	font-size: 14px;
+    line-height: 1.6 !important;
+	font-family: "JetBrains Mono", "Menlo","DejaVu Sans Mono","Liberation Mono", "Consolas","Ubuntu Mono","Courier New","andale mono","lucida console", monospace !important
+}
+
+#header{
+	    padding: 28px 0 0 !important;
+}
+
+#logo{
+	font-family: "STCaiyun";
+}
+
+#nav-menu{
+	margin: 0 0 -1px;
+    padding: 0;
+}
+
+.post-content{
+	padding-top: 15px !important;
+}
+
+.post-content ul{
+	margin: 0.35em 0 !important;
+}
+
+blockquote{
+	margin: 0.65em 0;
+}
+
+.post-toc {
+	font-size: 12px !important;
+	font-family: "Iowan Old Style", "Ovo", "Hoefler Text", Georgia, "Times New Roman", "TIBch", "Source Han Sans", "PingFangSC-Regular", "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", "Droid Sans Fallback", "WenQuanYi Micro Hei", sans-serif  !important;
+}
+
+.post-toc .post-toc-title{
+	font-size: 12px !important;
+}
+
+figcaption{
+	text-align: center;
+}
+
+ol{
+	padding-inline-start: 15px !important;
+}
+
+.post-content ul{
+	padding: 0 1em !important;
+}
+
+blockquote {
+    background-color: #f8f8f8;
+    border-left: 3px solid #ba3925;
+    padding: 0.5em 1em !important;
+}
+
+blockquote p{
+	margin: 0 0 0 !important;
+}
+
+blockquote::before{
+	content: none;
+}
+
+img{
+	/*filter: drop-shadow(rgb(150, 150, 150) 0px 0px 6px) !important;*/
+}

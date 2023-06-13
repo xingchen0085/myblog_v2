@@ -1,0 +1,87 @@
+baseURL = 'http://adiosy.com'
+languageCode = 'zh-CN'
+title = "Adiosy"
+uglyURLs = true
+theme = 'maupassant'
+disableKinds = true
+summaryLength = 8
+
+[author]
+  name = "星尘"
+
+## 顶部菜单
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives.html"
+    weight = 2
+  [[menu.main]]
+    identifier = "books"
+    name = "读书"
+    url = "/books.html"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about.html"
+    weight = 4
+
+##友链
+[[params.links]]
+  title = "Github"
+  name = "Github"
+  url = "https://github.com/xingchen0085"
+[[params.links]]
+  title = "Gitee"
+  name = "Gitee"
+  url = "https://gitee.com/xingchen0085"
+[[params.links]]
+  title = "土豆社区"
+  name = "土豆社区"
+  url = "https://potatomelon.com"
+
+
+## 侧边栏广告位
+[[params.ads]]
+  title = "我的公众号"
+  url = "#"
+  img = "/posts/assets/qrcode.jpg"
+
+## 代码高亮
+[markup]
+  [markup.highlight]
+    lineNos = false
+    style = "github"
+
+## 知识产权
+[params.cc]
+    name = "知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议"
+    link = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+## 评论
+[params.utteranc]
+    enable = true
+    repo = "xingchen0085/doc" # 存储评论的Repo，格式为 owner/repo
+    issueTerm = "pathname"  	#表示你选择以那种方式让github issue的评论和你的文章关联。
+    theme = "github-light" 		# 样式主题，有github-light和github-dark两种
+
+## md
+[params.sequenceDiagrams]		#绘图支持
+    enable = true
+    options = ""            # default: "{theme: 'simple'}"
+
+## 其他配置
+[params]
+  author = "星尘"
+  subtitle = "民间图形学爱好者！热爱渲染，几何，物理模拟，游戏引擎。"
+  keywords = "Java,C/C++,计算机图形学,渲染,动画,几何,物理模拟,公众号,小程序"
+  description = "Adiosy's Blog Site"
+	localSearch = true		#搜索
+	fancybox = true				#图片点击放大
+	busuanzi = true				#访问计数
+	beian = "滇ICP备2022000560号-1"
+  # 存放在了主题的static文件夹里
+  customCSS = ['custom.css']
+   # 全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能
+  toc = true  # 是否开启目录
